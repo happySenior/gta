@@ -1176,7 +1176,6 @@ h6 {
   position: relative;
   min-height: 100vh;
   overflow: visible;
-  background-color: red;
 }
 @supports (padding-bottom: clamp( 7.5rem , 6.9405594406rem  +  2.7972027972vw , 10rem )) {
   .main {
