@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GTA</title>
-    <link rel="stylesheet" href="css/style.min.css">
+    <title>QUANT.RP</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/files/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/files/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/files/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/files/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/files/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220826220006">
 </head>
 <body>
     <div class="wrapper">
@@ -26,8 +33,8 @@
                         <ul class="menu__list">
                             <li class="menu__item"><a href="#main" class="menu__link">Главная</a></li>
                             <li class="menu__item"><a href="#news" class="menu__link">Новости</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Форум</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Магазин</a></li>
+                            <li class="menu__item"><a href="#" data-label="dev-popup" class="menu__link">Форум</a></li>
+                            <li class="menu__item"><a href="#" data-label="dev-popup" class="menu__link">Магазин</a></li>
                             <li class="menu__item"><a href="https://t.me/quantum_io" target="_blank" class="menu__link">Телеграм канал</a></li>
                             <!-- <li class="menu__item"><a href="./pages/privacy.html" class="menu__link">Faq</a></li> -->
                         </ul>
@@ -43,31 +50,31 @@
                     <a class="menu__email" href="mailto:againGTA2@gmail.com">againGTA2@gmail.com</a>
                 </nav>
             </div>
-            <a href="#" class="header__button button button-details">ЛИЧНЫЙ КАБИНЕТ</a>
+            <a href="#" data-label="dev-popup" class="header__button button button-details">
+                <div class="button__text">ЛИЧНЫЙ КАБИНЕТ</div>
+            </a>
         </div>
     </div>
 </header>
         <main class="page">
             <section id="main" class="main">
-    <div class="main__wrapper">
-        <div class="main__container">
-            <h1 class="main__title _anim-item">Добро пожаловать <br> в первую метавселенную <br> в GTA 5 RP</h1>
-            <div class="main__subtitle _anim-item">Добро пожаловать</div>
-            <h1 class="main__title main__title_mobile _anim-item">в первую <br> метавселенную <br> в GTA 5 RP</h1>
-            <div class="main__buttons _anim-item">
-                <button data-label="step-popup" class="main__button button button-main">
-                    <div class="button__text">Как начать играть</div>
-                </button>
-                <button data-label="main-popup" class="main__button button button-details">
-                    <div class="button__text">Подробнее</div>
-                </button>
-            </div>
-            <div class="main__label _anim-item">Играй, зарабатывай и создавай собственное будущее</div>
+    <div class="main__container">
+        <h1 class="main__title _anim-item">Добро пожаловать <br> в первую метавселенную <br> в GTA 5 RP</h1>
+        <div class="main__subtitle _anim-item">Добро пожаловать</div>
+        <h1 class="main__title main__title_mobile _anim-item">в первую <br> метавселенную <br> в GTA 5 RP</h1>
+        <div class="main__buttons _anim-item">
+            <button data-label="step-popup" class="main__button button button-main">
+                <div class="button__text">Как начать играть</div>
+            </button>
+            <a href="#go" class="main__button button button-details">
+                <div class="button__text">Подробнее</div>
+            </a>
         </div>
-        <div class="main__bg background">
-            <img class="main__img_1" src="img/bg.jpg" alt="bg">
-            <img class="main__img_2" src="img/bg-mobile.jpg" alt="bg">
-        </div>
+        <div class="main__label _anim-item">Играй, зарабатывай и создавай собственное будущее</div>
+    </div>
+    <div class="main__bg background">
+        <img class="main__img_1" src="img/bg.jpg" alt="bg">
+        <img class="main__img_2" src="img/bg-mobile.png" alt="bg">
     </div>
 </section>
 
@@ -80,13 +87,12 @@
             <div class="what__content">
                 <div class="what__title">Что такое <span>Quant ROLE PLAY?</span></div>
                 <div class="what__text">
-                    <span>Quant Role Play</span>  - мы создаем полноценную метавселенную на базе GTA 5 <br> и блокчейна NEAR, возможности которой позволят тебе свободно работать, развиваться, зарабатывать, общаться, знакомиться и реализовывать все свои желания внутри 
-                    игрового мира. Мы предложим игрокам новый уровень игры <br>
-                    в GTA: реальная валюта, стабильная экономика, качественное отыгрывание ролей, обучение и развитие, заработок, свобода выбора и многое другое.
+                    <span>Quant Role Play</span>  - мы создаем полноценную метавселенную на базе GTA 5 и&nbsp;блокчейна NEAR, возможности которой позволят тебе свободно работать, развиваться, зарабатывать, общаться, знакомиться и&nbsp;реализовывать все свои желания внутри 
+                    игрового мира. Мы предложим игрокам новый уровень игры в&nbsp;GTA: реальная валюта, стабильная экономика, качественное отыгрывание ролей, обучение и&nbsp;развитие, заработок, свобода выбора и&nbsp;многое другое.
                     <br><br>
-                    Каждый игрок будет участвовать в развитии проекта 
-                    и чувствовать себя важной частью его. Мы начинаем с MVP, 
-                    но постоянно будем обращаться <br> к голосу нашего коммьюнити для модернизации<br> и расширения функционала. Таким образом, мы гарантируем качественное взаимодействие между разработчиками и пользователями, которые верят в наш проект.
+                    Каждый игрок будет участвовать в&nbsp;развитии проекта 
+                    и чувствовать себя важной частью его. Мы начинаем с&nbsp;MVP, 
+                    но постоянно будем обращаться к&nbsp;голосу нашего коммьюнити для модернизации и&nbsp;расширения функционала. Таким образом, мы гарантируем качественное взаимодействие между разработчиками и&nbsp;пользователями, которые верят в наш проект.
                 </div>
             </div>
         </div>
@@ -95,16 +101,16 @@
 
 <section class="wait">
     <div class="wait__container">
-        <div class="wait__title title _anim-item">Что вас ждёт в Quant RP</div>
+        <div class="wait__title title _anim-item">Что вас ждёт в&nbsp;Quant RP</div>
         <div class="wait__label _anim-item icon-eye">Нажми для подробной информации</div>
         <div class="wait__body _anim-item">
             <div class="wait__item item-wait">
-                <div class="item-wait__title item-wait__title_main">Хорошая экономика</div>
+                <div class="item-wait__title item-wait__title_main">Хорошая <br> экономика</div>
                 <div class="item-wait__hover">
                     <div class="item-wait__body">
-                        <div class="item-wait__title">Хорошая экономика</div>
+                        <div class="item-wait__title">Хорошая <br> экономика</div>
                         <div class="item-wait__text">
-                            Экономика мира не будет построенная на усложнении развития игрока с целью заработка на нем. Мы хотим создать мир с сильной экономикой, где каждый человек сможет подняться с нуля и стать тем, кем хочет. 
+                            Экономика мира не будет построенная на усложнении развития игрока с&nbsp;целью заработка на нем. Мы хотим создать мир с&nbsp;сильной экономикой, где каждый человек сможет подняться с&nbsp;нуля и стать тем, кем хочет. 
                         </div>
                     </div>
                 </div>
@@ -113,12 +119,12 @@
                 </div>
             </div>
             <div class="wait__item item-wait">
-                <div class="item-wait__title item-wait__title_main">Реальная <br> валюта в мире</div>
+                <div class="item-wait__title item-wait__title_main">Реальная<br>валюта в мире</div>
                 <div class="item-wait__hover">
                     <div class="item-wait__body">
-                        <div class="item-wait__title">Реальная <br> валюта в мире</div>
+                        <div class="item-wait__title">Реальная<br>валюта в мире</div>
                         <div class="item-wait__text">
-                            В мире будет собственная валюта, которую вы сможете конвертировать в реальные деньги за счёт работы и время провождения на сервере.
+                            В мире будет собственная валюта, которую вы сможете конвертировать в&nbsp;реальные деньги за счёт работы и&nbsp;время провождения на сервере.
                         </div>
                     </div>
                 </div>
@@ -132,7 +138,7 @@
                     <div class="item-wait__body">
                         <div class="item-wait__title">Medium/Hard RP</div>
                         <div class="item-wait__text">
-                            Каждый человек будет отыгрывать свою роль в мире, а за несоблюдения правил наказание будет принимать общество начиная от штрафа, заканчивая арестом игрока на долгий срок.
+                            Каждый человек будет отыгрывать свою роль в&nbsp;мире,а&nbsp;за несоблюдения правил наказание будет принимать общество начиная от штрафа, заканчивая арестом игрока на долгий срок.
                         </div>
                     </div>
                 </div>
@@ -141,12 +147,12 @@
                 </div>
             </div>
             <div class="wait__item item-wait">
-                <div class="item-wait__title item-wait__title_main">Реальная <br> ценность предметам</div>
+                <div class="item-wait__title item-wait__title_main">Реальная ценность<br>предметам</div>
                 <div class="item-wait__hover">
                     <div class="item-wait__body">
-                        <div class="item-wait__title">Реальная <br> ценность предметам</div>
+                        <div class="item-wait__title">Реальная ценность<br>предметам</div>
                         <div class="item-wait__text">
-                            Каждый предмет виртуального мира будет иметь реальную ценность в настоящем мире. Ты сможешь продать свой дом, машину, одежду, телефон и получить за это токены, которые сможешь обменять на реальные деньги. 
+                            Каждый предмет виртуального мира будет иметь реальную ценность в&nbsp;настоящем мире. Ты сможешь продать свой дом, машину, одежду, телефон и получить за это токены, которые сможешь обменять на реальные деньги. 
                         </div>
                     </div>
                 </div>
@@ -160,7 +166,7 @@
                     <div class="item-wait__body">
                         <div class="item-wait__title">Заработок</div>
                         <div class="item-wait__text">
-                            Играй, работай и зарабатывать токены, которые после сможешь обменять на реальные деньги. Ты можешь работать на кого-то, а можешь создать бизнес, который пассивно будет приносить тебе прибыль.
+                            Играй, работай и&nbsp;зарабатывать токены, которые после сможешь обменять на реальные деньги. Ты можешь работать на кого-то, а&nbsp;можешь создать бизнес, который пассивно будет приносить тебе прибыль.
                         </div>
                     </div>
                 </div>
@@ -174,7 +180,7 @@
                     <div class="item-wait__body">
                         <div class="item-wait__title">Свобода выбора</div>
                         <div class="item-wait__text">
-                            Каждый игрок самостоятельно выбирает свой путь развития и становления в виртуальном мире. Можешь быть главой банды, обычным работником, а можешь создать свой бизнес, стать главой полиции и преуспеть в жизни.
+                            Каждый игрок самостоятельно выбирает свой путь развития и становления в&nbsp;виртуальном мире. Можешь быть главой банды, обычным работником, а&nbsp;можешь создать свой бизнес, стать главой полиции и преуспеть в жизни.
                         </div>
                     </div>
                 </div>
@@ -201,19 +207,19 @@
                 <div class="item-different__block">02</div>
                 <div class="item-different__title">Качество игры</div>
                 <div class="item-different__text">
-                    Quant RP — уникальный игровой мод, написанный с нуля. Включает в себя лучшие технические решения, приятную визуальную подачу, внедрение блокчейна, заработка и реального погружения людей в игровой мир.
+                    Quant RP — уникальный игровой мод, написанный с&nbsp;нуля. Включает в себя лучшие технические решения, приятную визуальную подачу, внедрение блокчейна, заработка и&nbsp;реального погружения людей в&nbsp;игровой мир.
                 </div>
             </div>
             <div class="different__item item-different">
                 <div class="item-different__block">03</div>
                 <div class="item-different__title">Новый <br> уровень игры</div>
                 <div class="item-different__text">
-                    Мы предоставляем игрокам новый уровень игры, где они будут погружены в реальный виртуальный мир, который максимально будет схож с реальным миром.
+                    Мы предоставляем игрокам новый уровень игры, где они будут погружены в реальный виртуальный мир, который максимально будет схож с&nbsp;реальным миром.
                 </div>
             </div>
             <div class="different__item item-different">
                 <div class="item-different__block">04</div>
-                <div class="item-different__title">Возможность <br> развития и заработка</div>
+                <div class="item-different__title">Возможность развития <br> и заработка</div>
                 <div class="item-different__text">
                     Мы даём возможность игрока развиваться, развивать виртуальный мир и зарабатывать на нем реальные деньги.
                 </div>
@@ -302,7 +308,7 @@
             <div class="goals__item item-long-goals">
                 <div class="item-long-goals__content">
                     <div class="item-long-goals__title">Как начать играть?</div>
-                    <div class="item-long-goals__text">Узнай больше о том как начать играть и зарабатывать на нашем серевере</div>
+                    <div class="item-long-goals__text">Узнай больше о том как начать играть и&nbsp;зарабатывать на нашем серевере</div>
                 </div>
                 <a href="javascript:void(0);" data-label="step-popup" class="item-long-goals__button button button-main">Как начать играть!</a>
             </div>
@@ -313,20 +319,20 @@
     </div>
 </section>
 
-<section class="go">
+<section id="go" class="go">
     <div class="go__container">
         <div class="go__wrapper _anim-item">
             <div class="go__content">
-                <div class="go__title">Цели проекта</div>
+                <div class="go__title">К чему мы идём?</div>
                 <div class="go__text">
-                    <span>Наша цель</span> — предоставить игрокам новый уровень GTA 5 RP, где кроме комфортной игры и приятного времяпровождения с друзьями ты сможешь зарабатывать реальные деньги, развиваться себя <br> и погрузиться в виртуальный мир, где все схожее с реальным миром.
+                    <span>Наша цель</span> — предоставить игрокам новый уровень GTA 5 RP, где кроме комфортной игры и&nbsp;приятного времяпровождения с&nbsp;друзьями ты сможешь зарабатывать реальные деньги, развиваться себя и&nbsp;погрузиться в&nbsp;виртуальный мир, где все схожее с реальным миром.
                     <br><br>
-                    Дополнительно мы хотим показать как выглядит метовселенная и дать каждому «прочувствовать 
-                    ее на себе» сейчас, а не через 5 лет.
+                    Дополнительно мы хотим показать как выглядит метовселенная и&nbsp;дать каждому «прочувствовать 
+                    ее на себе» сейчас,а&nbsp;не через 5 лет.
                 </div>
             </div>
             <div class="go__image ibg">
-                <img src="img/mens.png" alt="mens">
+                <img src="img/mens-3.png" alt="mens">
             </div>
         </div>
     </div>
@@ -353,6 +359,7 @@
                         <div class="item-roadmap__line-wrapper">
                             <div class="item-roadmap__line-text">2022</div>
                         </div>
+                        <hr>
                     </div>
                     <div class="item-roadmap__inner">
                         <div class="item-roadmap__content">
@@ -388,6 +395,7 @@
                             </div>
                             <div class="item-roadmap__line-text">loading...</div>
                         </div>
+                        <hr>
                     </div>
                     <div class="item-roadmap__inner">
                         <div class="item-roadmap__label">Фаза 2</div>
@@ -417,6 +425,7 @@
                             </div>
                             <div class="item-roadmap__line-text">loading...</div>
                         </div>
+                        <hr>
                     </div>
                     <div class="item-roadmap__inner">
                         <div class="item-roadmap__label">Фаза 3</div>
@@ -441,6 +450,7 @@
                             </div>
                             <div class="item-roadmap__line-text">loading...</div>
                         </div>
+                        <hr>
                     </div>
                     <div class="item-roadmap__inner">
                         <div class="item-roadmap__label">Фаза 4</div>
@@ -459,7 +469,7 @@
         </div>
     </div>
     <div class="roadmap__bg background">
-        <!-- <img src="img/goal-bg.png" alt="road"> -->
+        <img src="img/goal-bg-2.png" alt="road">
     </div>
 </section>
 
@@ -467,8 +477,8 @@
     <div class="team__container">
         <div class="team__title title _anim-item">Команда</div>
         <div class="team__text _anim-item">
-            В нашей команде специалисты, которые соединены одной большой идей и так же имеют опыт работы от 3-х лет в упаковке бизнесов, создание криптопроектов, так же мы постоянно консультируемся 
-            у людей, чей опыт в криптоиндустрии составляет от 5-ти лет            
+            В нашей команде специалисты, которые соединены одной большой идей и так же имеют опыт работы&nbsp;от <span>3-х лет</span> в&nbsp;упаковке бизнесов, создание криптопроектов, так же мы постоянно консультируемся 
+            у людей, чей опыт в&nbsp;криптоиндустрии составляет от 5-ти лет            
         </div>
         <div class="team__body _anim-item">
             <div class="team__item item-team">
@@ -574,7 +584,7 @@
                             <a href="#" class="item-last-news__time">20.08.2022</a>
                             <a href="#" class="item-last-news__title">Последняя новость №1</a>
                             <div class="item-last-news__text">Баинг и селлинг подсознательно порождает формирование имиджа.</div>
-                            <a href="#" class="item-last-news__button button">подробнее</a>
+                            <a href="#" data-label="dev-popup" class="item-last-news__button button">подробнее</a>
                         </div>
                     </div>
                     <div class="last-news__item item-last-news">
@@ -585,7 +595,7 @@
                             <a href="#" class="item-last-news__time">20.08.2022</a>
                             <a href="#" class="item-last-news__title">Последняя новость №2</a>
                             <div class="item-last-news__text">Баинг и селлинг подсознательно порождает формирование имиджа.</div>
-                            <a href="#" class="item-last-news__button button">подробнее</a>
+                            <a href="#" data-label="dev-popup" class="item-last-news__button button">подробнее</a>
                         </div>
                     </div>
                     <div class="last-news__item item-last-news">
@@ -596,7 +606,7 @@
                             <a href="#" class="item-last-news__time">20.08.2022</a>
                             <a href="#" class="item-last-news__title">Последняя новость №1</a>
                             <div class="item-last-news__text">Баинг и селлинг подсознательно порождает формирование имиджа.</div>
-                            <a href="#" class="item-last-news__button button">подробнее</a>
+                            <a href="#" data-label="dev-popup" class="item-last-news__button button">подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -626,7 +636,7 @@
             </div>
             <div class="questions__item item-questions">
                 <div data-spoller class="item-questions__top">
-                    <div class="item-questions__title">Как именно я смогу заработать играя на Вашем сервере?</div>
+                    <div class="item-questions__title">Как именно я смогу заработать играя на вашем сервере?</div>
                     <div class="item-questions__button icon-plus"></div>
                 </div>
                 <div class="item-questions__text">
@@ -655,7 +665,7 @@
             </div>
             <div class="questions__item item-questions">
                 <div data-spoller class="item-questions__top">
-                    <div class="item-questions__title">Я ютубер и хотел бы снимать о Вас видео. Получу ли я какое-то вознаграждение за это в проекте?</div>
+                    <div class="item-questions__title">Я ютубер и хотел бы снимать о Вас видео. Получу ли я какое-то вознаграждение за это в&nbsp;проекте?</div>
                     <div class="item-questions__button icon-plus"></div>
                 </div>
                 <div class="item-questions__text">
@@ -681,7 +691,7 @@
                 </div>
             </div>
         </div>
-        <div class="questions__feedback _anim-item">Остались вопросы? Обратитесь в <a href="#">службу поддержки</a></div>
+        <div class="questions__feedback _anim-item">Остались вопросы? Обратитесь в&nbsp;<a href="https://t.me/dmitriy_mikhailenko" target="_blank">службу поддержки</a></div>
         
     </div>
 </section>
@@ -697,17 +707,17 @@
                     <div class="item-social__arrow icon-arrow-left"></div>
                 </div>
             </a>
+            <a href="https://t.me/quantum_io" target="_blank" class="social__item item-social">
+                <div class="item-social__icon icon-telegram"></div>
+                <div class="item-social__bottom">
+                    <div class="item-social__text">Telegram сообщество</div>
+                    <div class="item-social__arrow icon-arrow-left"></div>
+                </div>
+            </a>
             <a href="https://discord.gg/qVwH93py" target="_blank" class="social__item item-social">
                 <div class="item-social__icon icon-discord"></div>
                 <div class="item-social__bottom">
                     <div class="item-social__text">Discord сообщество</div>
-                    <div class="item-social__arrow icon-arrow-left"></div>
-                </div>
-            </a>
-            <a href="link" target="_blank" class="social__item item-social">
-                <div class="item-social__icon icon-twitter"></div>
-                <div class="item-social__bottom">
-                    <div class="item-social__text">Twitter</div>
                     <div class="item-social__arrow icon-arrow-left"></div>
                 </div>
             </a>
@@ -749,25 +759,25 @@
                     <ul class="menu-footer__list">
                         <li class="menu-footer__item"><a href="#main" class="menu-footer__link">Главная</a></li>
                         <li class="menu-footer__item"><a href="#news" class="menu-footer__link">Новости</a></li>
-                        <li class="menu-footer__item"><a href="#" class="menu-footer__link">Форум</a></li>
-                        <li class="menu-footer__item"><a href="#" class="menu-footer__link">Магазин</a></li>
-                        <li class="menu-footer__item"><a href="#https://t.me/quantum_io" class="menu-footer__link">Телеграм канал</a></li>
+                        <li class="menu-footer__item"><a href="#" data-label="dev-popup" class="menu-footer__link">Форум</a></li>
+                        <li class="menu-footer__item"><a href="#" data-label="dev-popup" class="menu-footer__link">Магазин</a></li>
+                        <li class="menu-footer__item"><a href="https://t.me/quantum_io" target="_blank" class="menu-footer__link">Телеграм канал</a></li>
                     </ul>
                 </div>
                 <div class="menu-footer__column">
                     <div class="menu-footer__title">Доп. информация</div>
                     <ul class="menu-footer__list">
-                        <li class="menu-footer__item"><a href="#" class="menu-footer__link">Форум</a></li>
-                        <li class="menu-footer__item"><a href="#" class="menu-footer__link">Начать игру</a></li>
+                        <li class="menu-footer__item"><a href="#" data-label="dev-popup" class="menu-footer__link">Форум</a></li>
+                        <li class="menu-footer__item"><a href="#" data-label="step-popup" class="menu-footer__link">Начать игру</a></li>
                     </ul>
                 </div>
-                <div class="menu-footer__column">
+                <!-- <div class="menu-footer__column">
                     <div class="menu-footer__title">Для пользователей</div>
                     <ul class="menu-footer__list">
-                        <li class="menu-footer__item"><a href="#" class="menu-footer__link">Польщовательское соглашение</a></li>
-                        <li class="menu-footer__item"><a href="#" class="menu-footer__link">Условия использования</a></li>
+                        <li class="menu-footer__item"><a href="#" data-label="dev-popup" class="menu-footer__link">Пользовательское соглашение</a></li>
+                        <li class="menu-footer__item"><a href="#" data-label="dev-popup" class="menu-footer__link">Условия использования</a></li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="menu-footer__column">
                     <div class="menu-footer__title">Контакты</div>
                     <ul class="menu-footer__list">
@@ -814,7 +824,19 @@
         </div>
     </div>
 </div>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.0/swiper-bundle.min.js" integrity="sha512-fRxU3fhg7jWn77+UqkAPkNmnpFAA0IwxT8nysPJ2++WcE0jvaTe7OxC5OH1wiA/grOqgeZreu35nMK/S0qmdkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-<script src="js/app.min.js"></script>
+
+<div data-popup="dev-popup" class="popup-info">
+    <div class="popup-info__wrapper">
+        <div class="popup-info__top">
+            <div class="popup-info__title"></div>
+            <div class="popup-info__close"><span></span></div>
+        </div>
+        <div class="popup-info__content">
+            Страница находится в разработке...            
+        </div>
+    </div>
+</div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.0/swiper-bundle.min.js?_v=20220826220006" integrity="sha512-fRxU3fhg7jWn77+UqkAPkNmnpFAA0IwxT8nysPJ2++WcE0jvaTe7OxC5OH1wiA/grOqgeZreu35nMK/S0qmdkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="js/app.min.js?_v=20220826220006"></script>
 </body>
 </html>
