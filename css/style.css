@@ -1463,20 +1463,9 @@ h6 {
 
 .main {
   position: relative;
-  min-height: 100vh;
+  min-height: 63.125rem;
+  padding-bottom: 10rem;
   overflow: hidden;
-}
-
-@supports (padding-bottom: clamp( 7.5rem , 6.9405594406rem  +  2.7972027972vw , 10rem )) {
-  .main {
-    padding-bottom: clamp( 7.5rem , 6.9405594406rem  +  2.7972027972vw , 10rem );
-  }
-}
-
-@supports not (padding-bottom: clamp( 7.5rem , 6.9405594406rem  +  2.7972027972vw , 10rem )) {
-  .main {
-    padding-bottom: calc(7.5rem + 2.5 * (100vw - 20rem) / 89.375);
-  }
 }
 
 @supports (margin-bottom: clamp( 3.75rem , 3.0506993007rem  +  3.4965034965vw , 6.875rem )) {
@@ -1509,7 +1498,7 @@ h6 {
 .main__container {
   position: relative;
   z-index: 2;
-  min-height: 100vh;
+  min-height: 63.125rem;
   padding-bottom: 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1988,10 +1977,13 @@ h6 {
 
 .item-wait__title_main {
   margin-top: auto;
-  margin-bottom: 0;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+.item-wait__title_main:not(:last-child) {
+  margin-bottom: 3.125rem;
 }
 
 .item-wait__hover {
@@ -2292,15 +2284,15 @@ h6 {
   position: relative;
 }
 
-@supports (padding-top: clamp( 7.5rem , 5.4020979021rem  +  10.4895104895vw , 16.875rem )) {
+@supports (padding-top: clamp( 10rem , 8.4615384615rem  +  7.6923076923vw , 16.875rem )) {
   .upgrade {
-    padding-top: clamp( 7.5rem , 5.4020979021rem  +  10.4895104895vw , 16.875rem );
+    padding-top: clamp( 10rem , 8.4615384615rem  +  7.6923076923vw , 16.875rem );
   }
 }
 
-@supports not (padding-top: clamp( 7.5rem , 5.4020979021rem  +  10.4895104895vw , 16.875rem )) {
+@supports not (padding-top: clamp( 10rem , 8.4615384615rem  +  7.6923076923vw , 16.875rem )) {
   .upgrade {
-    padding-top: calc(7.5rem + 9.375 * (100vw - 20rem) / 89.375);
+    padding-top: calc(10rem + 6.875 * (100vw - 20rem) / 89.375);
   }
 }
 
@@ -2468,15 +2460,15 @@ h6 {
   }
 }
 
-@supports (padding-bottom: clamp( 3.125rem , 0.6774475524rem  +  12.2377622378vw , 14.0625rem )) {
+@supports (padding-bottom: clamp( 5.625rem , 3.7368881119rem  +  9.4405594406vw , 14.0625rem )) {
   .goals {
-    padding-bottom: clamp( 3.125rem , 0.6774475524rem  +  12.2377622378vw , 14.0625rem );
+    padding-bottom: clamp( 5.625rem , 3.7368881119rem  +  9.4405594406vw , 14.0625rem );
   }
 }
 
-@supports not (padding-bottom: clamp( 3.125rem , 0.6774475524rem  +  12.2377622378vw , 14.0625rem )) {
+@supports not (padding-bottom: clamp( 5.625rem , 3.7368881119rem  +  9.4405594406vw , 14.0625rem )) {
   .goals {
-    padding-bottom: calc(3.125rem + 10.9375 * (100vw - 20rem) / 89.375);
+    padding-bottom: calc(5.625rem + 8.4375 * (100vw - 20rem) / 89.375);
   }
 }
 
@@ -3331,27 +3323,27 @@ h6 {
   position: relative;
 }
 
-@supports (padding-top: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem )) {
+@supports (padding-top: clamp( 4.0625rem , 2.8736888112rem  +  5.9440559441vw , 9.375rem )) {
   .team {
-    padding-top: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem );
+    padding-top: clamp( 4.0625rem , 2.8736888112rem  +  5.9440559441vw , 9.375rem );
   }
 }
 
-@supports not (padding-top: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem )) {
+@supports not (padding-top: clamp( 4.0625rem , 2.8736888112rem  +  5.9440559441vw , 9.375rem )) {
   .team {
-    padding-top: calc(3.125rem + 6.25 * (100vw - 20rem) / 89.375);
+    padding-top: calc(4.0625rem + 5.3125 * (100vw - 20rem) / 89.375);
   }
 }
 
-@supports (padding-bottom: clamp( 2.5rem , 1.1013986014rem  +  6.993006993vw , 8.75rem )) {
+@supports (padding-bottom: clamp( 4.0625rem , 3.013548951rem  +  5.2447552448vw , 8.75rem )) {
   .team {
-    padding-bottom: clamp( 2.5rem , 1.1013986014rem  +  6.993006993vw , 8.75rem );
+    padding-bottom: clamp( 4.0625rem , 3.013548951rem  +  5.2447552448vw , 8.75rem );
   }
 }
 
-@supports not (padding-bottom: clamp( 2.5rem , 1.1013986014rem  +  6.993006993vw , 8.75rem )) {
+@supports not (padding-bottom: clamp( 4.0625rem , 3.013548951rem  +  5.2447552448vw , 8.75rem )) {
   .team {
-    padding-bottom: calc(2.5rem + 6.25 * (100vw - 20rem) / 89.375);
+    padding-bottom: calc(4.0625rem + 4.6875 * (100vw - 20rem) / 89.375);
   }
 }
 
@@ -3880,27 +3872,27 @@ h6 {
   background-color: #0A0A0A;
 }
 
-@supports (padding-top: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem )) {
+@supports (padding-top: clamp( 4.0625rem , 2.8736888112rem  +  5.9440559441vw , 9.375rem )) {
   .questions {
-    padding-top: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem );
+    padding-top: clamp( 4.0625rem , 2.8736888112rem  +  5.9440559441vw , 9.375rem );
   }
 }
 
-@supports not (padding-top: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem )) {
+@supports not (padding-top: clamp( 4.0625rem , 2.8736888112rem  +  5.9440559441vw , 9.375rem )) {
   .questions {
-    padding-top: calc(3.125rem + 6.25 * (100vw - 20rem) / 89.375);
+    padding-top: calc(4.0625rem + 5.3125 * (100vw - 20rem) / 89.375);
   }
 }
 
-@supports (padding-bottom: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem )) {
+@supports (padding-bottom: clamp( 4.0625rem , 2.8736888112rem  +  5.9440559441vw , 9.375rem )) {
   .questions {
-    padding-bottom: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem );
+    padding-bottom: clamp( 4.0625rem , 2.8736888112rem  +  5.9440559441vw , 9.375rem );
   }
 }
 
-@supports not (padding-bottom: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem )) {
+@supports not (padding-bottom: clamp( 4.0625rem , 2.8736888112rem  +  5.9440559441vw , 9.375rem )) {
   .questions {
-    padding-bottom: calc(3.125rem + 6.25 * (100vw - 20rem) / 89.375);
+    padding-bottom: calc(4.0625rem + 5.3125 * (100vw - 20rem) / 89.375);
   }
 }
 
@@ -4089,15 +4081,15 @@ h6 {
   letter-spacing: 0.01875rem;
 }
 
-@supports (font-size: clamp( 0.875rem , 0.8190559441rem  +  0.2797202797vw , 1.125rem )) {
+@supports (font-size: clamp( 0.9375rem , 0.895541958rem  +  0.2097902098vw , 1.125rem )) {
   .item-questions__text {
-    font-size: clamp( 0.875rem , 0.8190559441rem  +  0.2797202797vw , 1.125rem );
+    font-size: clamp( 0.9375rem , 0.895541958rem  +  0.2097902098vw , 1.125rem );
   }
 }
 
-@supports not (font-size: clamp( 0.875rem , 0.8190559441rem  +  0.2797202797vw , 1.125rem )) {
+@supports not (font-size: clamp( 0.9375rem , 0.895541958rem  +  0.2097902098vw , 1.125rem )) {
   .item-questions__text {
-    font-size: calc(0.875rem + 0.25 * (100vw - 20rem) / 89.375);
+    font-size: calc(0.9375rem + 0.1875 * (100vw - 20rem) / 89.375);
   }
 }
 
@@ -4106,27 +4098,27 @@ h6 {
   background: #000000;
 }
 
-@supports (padding-top: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem )) {
+@supports (padding-top: clamp( 3.75rem , 2.4912587413rem  +  6.2937062937vw , 9.375rem )) {
   .social {
-    padding-top: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem );
+    padding-top: clamp( 3.75rem , 2.4912587413rem  +  6.2937062937vw , 9.375rem );
   }
 }
 
-@supports not (padding-top: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem )) {
+@supports not (padding-top: clamp( 3.75rem , 2.4912587413rem  +  6.2937062937vw , 9.375rem )) {
   .social {
-    padding-top: calc(3.125rem + 6.25 * (100vw - 20rem) / 89.375);
+    padding-top: calc(3.75rem + 5.625 * (100vw - 20rem) / 89.375);
   }
 }
 
-@supports (padding-bottom: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem )) {
+@supports (padding-bottom: clamp( 3.75rem , 2.4912587413rem  +  6.2937062937vw , 9.375rem )) {
   .social {
-    padding-bottom: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem );
+    padding-bottom: clamp( 3.75rem , 2.4912587413rem  +  6.2937062937vw , 9.375rem );
   }
 }
 
-@supports not (padding-bottom: clamp( 3.125rem , 1.7263986014rem  +  6.993006993vw , 9.375rem )) {
+@supports not (padding-bottom: clamp( 3.75rem , 2.4912587413rem  +  6.2937062937vw , 9.375rem )) {
   .social {
-    padding-bottom: calc(3.125rem + 6.25 * (100vw - 20rem) / 89.375);
+    padding-bottom: calc(3.75rem + 5.625 * (100vw - 20rem) / 89.375);
   }
 }
 
@@ -5353,21 +5345,17 @@ h6 {
     padding: 3rem 0;
   }
 
-  .header__container {
-    padding: 0 1.25rem;
-  }
-
   .menu__body {
     width: 100%;
   }
 
   .main {
     padding-top: 17.5rem;
-    padding-bottom: 1.875rem;
+    padding-bottom: 2.8125rem;
   }
 
   .main:not(:last-child) {
-    margin-bottom: 0;
+    margin-bottom: 0rem;
   }
 
   .main {
@@ -5388,14 +5376,13 @@ h6 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 0 1.25rem;
   }
 
   .main__title {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    font-size: 1.875rem;
+    font-size: 1.8125rem;
     max-width: 18.75rem;
     text-align: left;
   }
@@ -5454,6 +5441,14 @@ h6 {
     margin-bottom: 10px;
   }
 
+  .item-wait__title_main:not(:last-child) {
+    margin-bottom: 1.875rem;
+  }
+
+  .different {
+    margin-bottom: -3.125rem;
+  }
+
   .different::after {
     height: 102%;
   }
@@ -5495,7 +5490,7 @@ h6 {
   .item-goals:nth-child(1) .item-goals__image img {
     right: 1px;
     left: unset;
-    width: 63%;
+    width: 53%;
   }
 
   .item-goals:nth-child(4) .item-goals__image {
@@ -5505,6 +5500,12 @@ h6 {
     padding-bottom: 17%;
     right: -0.9375rem;
     bottom: 1.25rem;
+  }
+
+  .item-goals:nth-child(4) .item-goals__image img {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
   }
 
   .item-goals:nth-child(5) .item-goals__image {
@@ -5533,6 +5534,10 @@ h6 {
 
   .item-long-goals__button {
     max-width: unset;
+  }
+
+  .go {
+    padding-top: 4.375rem;
   }
 
   .go__wrapper {
